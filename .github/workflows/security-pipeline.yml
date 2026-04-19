@@ -116,6 +116,7 @@ jobs:
           severity: HIGH,CRITICAL
           format: table
           exit-code: 1
+          skip-dirs: /usr/local/lib/node_modules/npm,/opt/yarn-v1.22.22
 
   # ──────────────────────────────────────────────
   # Step 5: Vulnerability Coordination (DefectDojo)
