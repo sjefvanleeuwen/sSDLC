@@ -1,0 +1,8 @@
+# Require reviews from specific teams for security-sensitive files
+* @your-org/engineering-team
+
+# Pipeline definitions require security team review
+.github/ @your-org/security-team @your-org/engineering-team
+
+# Dockerfile changes require security review
+Dockerfile @your-org/security-team
